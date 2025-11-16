@@ -1,0 +1,47 @@
+{
+    "action": {
+        "default_title": "Quick Site Launcher"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "commands": {
+        "open-site-1": {
+            "description": "Opens Custom Site 1",
+            "suggested_key": {
+                "default": "Ctrl+Shift+1",
+                "mac": "Command+Shift+1"
+            }
+        },
+        "open-site-2": {
+            "description": "Opens Custom Site 2",
+            "suggested_key": {
+                "default": "Ctrl+Shift+2",
+                "mac": "Command+Shift+2"
+            }
+        },
+        "open-site-3": {
+            "description": "Opens Custom Site 3",
+            "suggested_key": {
+                "default": "Ctrl+Shift+3",
+                "mac": "Command+Shift+3"
+            }
+        },
+        "open-site-4": {
+            "description": "Opens Custom Site 4",
+            "suggested_key": {
+                "default": "Ctrl+Shift+4",
+                "mac": "Command+Shift+4"
+            }
+        }
+    },
+    "description": "Opens websites via user-defined keyboard shortcuts.",
+    "manifest_version": 3,
+    "name": "Quick Site Launcher",
+    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "version": "1.0"
+}
