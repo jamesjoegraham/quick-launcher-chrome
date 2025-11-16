@@ -2,11 +2,11 @@
 
 This extension consists of three files and does not require Node.js or NPM to run, as it is a set of static files loaded directly by the Chrome browser.
 
-## ## Step 1: Create the Project Folder
+## Step 1: Create the Project Folder
 
 Create a New Directory: On your computer (e.g., on your desktop), create a new folder. You can name it quick-launcher. This folder will house all your extension files.
 
-## ## Step 2: Create and Save the Files
+## Step 2: Create and Save the Files
 
 Inside the quick-launcher folder, create the following three files exactly as provided in the code blocks:
 
